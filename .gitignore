@@ -1,0 +1,18 @@
+# Hugo build output
+/public/
+/resources/
+
+# Hugo caches (speed up local builds)
+.cache/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# Node/npm if you add Tailwind, PostCSS, etc.
+node_modules/
+package-lock.json
+yarn.lock
+
+# VS Code config (optional, if you don’t want to commit workspace settings)
+.vscode/
