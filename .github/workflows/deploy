@@ -21,7 +21,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true      # pulls theme if it's a submodule
+          submodules: true
           fetch-depth: 0
 
       - name: Setup Hugo
@@ -42,7 +42,6 @@ jobs:
 
       - name: Build
         run: hugo --minify
-        # If your site lives in a subfolder, add: --source path/to/site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
